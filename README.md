@@ -1,5 +1,7 @@
 # <mark>**ATM Management System (C++)**<mark>
 **Overview**
+<img width="953" height="575" alt="image" src="https://github.com/user-attachments/assets/ac433323-9921-4c07-a44a-5f3339d0a587" />
+
 
 The ATM Management System is a console-based application developed in C++ that simulates real-world ATM operations. It supports both user-level banking operations and administrative controls, with persistent data storage using file handling.
 
@@ -10,6 +12,7 @@ File Handling
 Data Structures
 Basic Security Mechanisms (PIN & OTP)
 # <mark>**Features**<mark>
+
     User Features
     Create new account
     Secure login using PIN
@@ -26,7 +29,7 @@ Basic Security Mechanisms (PIN & OTP)
     View all user details
 
 # <mark>System Design<mark>
-🔹 Technologies Used
+ Technologies Used
       Language: C++
       Libraries:
       <iostream>
@@ -34,15 +37,15 @@ Basic Security Mechanisms (PIN & OTP)
       <ctime>
       <conio.h>
       <windows.h>
-# File Structure
-File	Description
+# <mark>File Structure<mark>
+File Description
 UserID.txt	Stores next available user ID
 ATM_balance.txt	Stores ATM machine balance
 User_details.txt	Stores summary of all users
 <userid>.txt	Stores individual user data
 
 # Class Structure
-🔸 struct user
+ struct user
   Stores all user-related data:
 - User ID
 - Name, Age, Address
@@ -109,7 +112,7 @@ Security Features
     Create Account → Enter details → OTP → Set PIN
     Withdraw Money → Login → Select amount → Get receipt
     Transfer Money → Enter sender & receiver → Confirm transaction
-# 👥 Contributors
+#  Contributors
     Pragyan Pandey
     Arina Tuladhar
     Uttam Mukhiya
